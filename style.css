@@ -235,6 +235,14 @@ article {
   margin-top: 5rem;
 }
 
+.container {
+  margin-top: 4rem;
+}
+
+.contact {
+  margin-top: 10rem;
+}
+
 .row {
   display: flex;
 }
@@ -274,6 +282,13 @@ input::placeholder {
   padding: 1rem;
   width: 98%;
   height: 4rem;
+}
+
+#contact-icons {
+  margin-top: 5rem;
+}
+#contact-icons a {
+  margin: 0 0.6rem;
 }
 
 /* footer section */

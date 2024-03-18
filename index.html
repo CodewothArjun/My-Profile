@@ -31,10 +31,10 @@
             <div class="logo">Arjun Mijar</div>
             <div>
                 <ul class="right-nav">
-                    <li class="link"><a href="#">Project</a></li>
-                    <li class="link"><a href="#">Experience</a></li>
-                    <li class="link"><a href="#">About</a></li>
-                    <li class="link"><a href="#">Contact</a></li>
+                    <li class="link"><a href="#Project">Project</a></li>
+                    <li class="link"><a href="#Experience">Experience</a></li>
+                    <li class="link"><a href="#about">About</a></li>
+                    <li class="link"><a href="#Contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -50,20 +50,20 @@
                 <h2>Frontend Developer </h2>
                 <div class="btn-container">
                     <button class="cv-dwn" onclick="window.open('./asserts/ARJUN-ROKKA-cv.pdf')"> Download CV</button>
-                    <button class="cont-info">Contact Info</button>
+                    <button class="cont-info" onclick="window.open('#Contact')">Contact Info</button>
                 </div>
                 <div class="icons">
                     <a href="https://github.com/CodewothArjun/CodewothArjun"><i
                             class="fa-brands fa-square-github"></i></a>
                     <a href="https://www.linkedin.com/in/arjun-rokka9800/"><i class="fa-brands fa-linkedin"></i></a>
                     <a href="https://www.facebook.com/arjun.rokka.188"><i class="fa-brands fa-facebook"></i></a>
-                    <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://twitter.com/Arjun_Rokka9800"><i class="fa-brands fa-square-twitter"></i></a>
                 </div>
             </div>
         </div>
 
         <!-- About Section -->
-        <section class="about">
+        <section class="about" id="about">
             <p class="getPara">Get To Know More</p>
             <h1 class="title">About Me</h1>
             <div class="about-section">
@@ -94,7 +94,7 @@
         </section>
 
         <!-- Experience section -->
-        <section class="experience">
+        <section class="experience" id="Experience">
             <p class="getPara"> Explore My</p>
             <h1 class="title">Experience</h1>
             <div class="exp-container">
@@ -161,7 +161,7 @@
                             <img class="checkmark" src="./asserts/checkmark.png" alt="checkMark">
                             <div>
                                 <h3>Python</h3>
-                                <p>Experienced</p>
+                                <p>Medium</p>
                             </div>
                         </article>
                         <article>
@@ -178,7 +178,7 @@
         </section>
 
         <!-- Project Section -->
-        <section class="project">
+        <section class="project" id="Project">
             <p class="getPara">Browse My Recent</p>
             <h2 class="title">Project</h2>
             <div class="proj-fcontainer">
@@ -213,15 +213,17 @@
                     </div>
                     <h2 class="pro1">Project Three</h2>
                     <div class="proj-btn-container">
-                        <button class="proj-btn">Github</button>
-                        <button class="proj-btn">Live Demo</button>
+                        <button class="proj-btn"
+                            onclick="location.href=('https://github.com/CodewothArjun/My-Portfolio.git')">Github</button>
+                        <button class="proj-btn"
+                            onclick="location.href=('https://codewotharjun.github.io/My-Portfolio/')">Live Demo</button>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Contact Section -->
-        <section class="contact">
+        <section class="contact" id="Contact">
             <p class="getPara">Get In Touch</p>
             <h2 class="title">Contact Me</h2>
 
@@ -235,6 +237,15 @@
                         </h4>
                         <p>Your feedback and suggestions are invaluable to me. Please feel free to drop me a message
                             or share your thoughts using the form below.</p>
+                        <div class="icons" id="contact-icons">
+                            <a href="https://github.com/CodewothArjun/CodewothArjun"><i
+                                    class="fa-brands fa-square-github"></i></a>
+                            <a href="https://www.linkedin.com/in/arjun-rokka9800/"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.facebook.com/arjun.rokka.188"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://twitter.com/Arjun_Rokka9800"><i
+                                    class="fa-brands fa-square-twitter"></i></a>
+                        </div>
                     </div>
                     <div class="col-md-6 py-3">
                         <h1>Contact Form </h1>
